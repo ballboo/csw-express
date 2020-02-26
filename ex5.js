@@ -8,4 +8,4 @@ app.get('/', (req,res) => {
     res.render('fruitView', {fruit : ['banana' , 'apple' , 'mango' ]})
 
 })
-app.listen(8080)
+app.listen(8000)

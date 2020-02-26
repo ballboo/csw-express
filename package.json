@@ -2,7 +2,7 @@
   "name": "ch5",
   "version": "1.0.0",
   "description": "",
-  "main": "ex6.js",
+  "main": "lab5.2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
