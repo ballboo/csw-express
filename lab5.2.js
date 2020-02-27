@@ -19,8 +19,8 @@ app.get('/', (req , res) =>{
 
 app.post('/admin',urlencodedParser , (req ,res) => {
     let email = req.body.email.toString().trim()
-    console.log()
-    if ( email != ' ' || parseInt(req.body.password) ===  240311 ){
+    console.log('email: ' + email)
+    if ( email || parseInt(req.body.password) ===  240311 ){
         res.send('Hello ' + email  )
     }
     else{
